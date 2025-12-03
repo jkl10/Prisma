@@ -1,0 +1,63 @@
+:root {
+    --text-color-verde: #0ed985 !important;
+    --text-color-vermelho: #8A0303 !important;
+    --text-color-roxo: #5a2a83 !important;
+    --text-color-laranja: #f4a958 !important;--text-color-azul: #0995ED !important;
+    --text-color-amarelo: #FFC938 !important;
+    --text-color-lilas: #A381F0 !important;
+    --text-color: #000 !important;
+}
+
+
+.vermelho {
+    color: var(--text-color-vermelho);
+}
+.laranja {
+    color: var(--text-color-laranja);
+}
+.verde {
+    color: var(--text-color-verde);
+}
+.azul {
+    color: var(--text-color-azul);
+}
+.roxo {
+    color: var(--text-color-roxo);
+}
+.lilas {
+    color: var(--text-color-lilas);
+}
+.amarelo {
+    color: var(--text-color-amarelo);
+}
+
+.bg_color {
+    background-color: azure !important;
+}
+.color {
+    color: var(--text-color);
+}
+
+.carousel-item {
+    height: 75vh;
+    min-height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 45vh;
+        min-height: 280px; 
+    }
+
+    .carousel-item img {
+        object-position: center;
+    }
+}
