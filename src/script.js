@@ -20,7 +20,7 @@ const liMaker = (text) => {
   const li = document.createElement('li'); // Cria um elemento <li>
   li.textContent = text; // Define o texto do elemento
   ul.appendChild(li); // append= adiciona. Adiciona o <li> dentro da lista <ul> no HTML
-    if(itemsArray.length == 11){
+    if(itemsArray.length > 11){
       while (ul.firstChild) {
     // remova esse primeiro filho. O processo se repete até a lista ficar vazia.
         ul.removeChild(ul.firstChild);
