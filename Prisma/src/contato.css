@@ -1,0 +1,13 @@
+:root {
+    --bg-contatoUm:#f0f6ff !important;
+    --bg-contatoDois:#EEF5E8 !important;
+    --bg-contato: #F4F7F3!important;
+}
+
+.background {
+  background: linear-gradient(0deg, var(--bg-contatoUm) 0%, var(--bg-contatoDois) 100%);
+}
+
+.bg_contato{
+    background-color: var(--bg-contato);
+}
