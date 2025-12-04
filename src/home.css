@@ -53,7 +53,7 @@
 
 @media (max-width: 768px) {
     .carousel-item {
-        height: 45vh;
+        height: 40vh;
         min-height: 280px; 
     }
 

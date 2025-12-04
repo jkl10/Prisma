@@ -8,6 +8,7 @@
     --text-color-materna: #7533a2!important;
     --text-color-transito: #dfd000!important;
     --text-color-segurança: #03c473!important;
+    --footer-color-border: #e0e0e0!important;
 }
 
 .doacaoSangue:hover {
@@ -48,4 +49,10 @@
 
 .form {
     resize: none;
+}
+
+.color_border{
+    border-top-style: solid;
+    border-radius: 3px;
+    border-top-color: var(--footer-color-border);
 }
